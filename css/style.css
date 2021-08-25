@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format('woff2'),
+       url("../fonts/Montserrat-Regular.woff") format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.woff2") format('woff2'),
+       url("../fonts/Montserrat-Medium.woff") format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format('woff2'),
+       url("../fonts/PlayfairDisplay-Regular.woff") format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format('woff2'),
+       url("../fonts/PlayfairDisplay-Italic.woff") format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format('woff2'),
+       url("../fonts/PlayfairDisplay-Bold.woff") format('woff');
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #AE7C78;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+  
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+  
+html { 
+  box-sizing: border-box;
+}
+  
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* [class$="__list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+.main-nav__link {
+  color: #AE7C78;
+}
+
+.intro__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 44px;
+  line-height: 59px;
+  font-weight: 400;
+}
+
+.intro__city {
+  font-style: italic;
+}
+
+.intro__text {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.intro__link {
+  color: #FFFFFF;
+  background-color: #D89999;
+}
+
+.advantages__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.slider__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.bouquet__title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+}
+
+.bouquet__price {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+}
+
+.bouquet__button {
+  color: #FFFFFF;
+  background-color: #D89999;
+}
+
+.bouquets {  
+  background-color: rgba(174, 124, 120, 0.6);
+}
+
+.bouquets__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  color:#FFFFFF;
+  letter-spacing: 0.02em;
+}
+
+.bouquets__text {
+  color:#FFFFFF;
+}
+
+.discount {
+  color:#FFFFFF;
+  background-color: #AE7C78;
+}
+
+.discount__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 44px;
+  line-height: 59px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.discount__text {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.way__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.way__item-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.news__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.news__text {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.reviews__title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.reviews__autor {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.contacts__welcome {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.contacts__data {
+  color: #AE7C78;
+  font-weight: 500;
+}
+
+.page-footer {
+  background-color: #AE7C78;
+}
+
+.nav-list__link {
+  color: #FFFFFF;
+}
