@@ -214,6 +214,10 @@ html {
   font-weight: 500;
 }
 
+.contacts__info {
+  background-color: #F7FAFC;
+}
+
 .contacts__welcome {
   font-family: "Playfair Display", "Georgia", serif;
   font-size: 36px;
